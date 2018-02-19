@@ -1,0 +1,41 @@
+.about {
+    background: #efefef;
+
+    .about-title {
+        h1 {
+            padding: 30px 0 50px;
+            font-size: 40px;
+            margin: 0 auto;
+        }
+    }
+
+    .about-leftside, .about-rightside {
+        width: 50%;
+        float: left;
+    }
+
+    .about-leftside {
+        .img-cont {
+            margin: 0 auto;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .about-rightside {
+        text-align: left;
+        font-size: 19px;
+        line-height: 28px;
+
+        h3 {
+            margin: 0;
+            padding-top: 20px;
+            font-size: 25px;
+        }
+    }
+}

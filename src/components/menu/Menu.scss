@@ -1,0 +1,36 @@
+.menu {
+    padding: 0 20px;
+    height: 80px;
+
+    > div {
+        height: 80px;
+        float: left;
+    }
+
+    .menu-leftside {
+        width: 40%;
+        
+        h2 {
+            font-size: 35px;
+            height: 80px;
+            line-height: 80px;
+            margin: 0;
+        }
+    }
+
+    .menu-rightside {
+        width: 60%;
+
+        .menu-nav {
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                height: 80px;
+                display: block;
+                line-height: 80px;
+                font-size: 25px;
+            }
+        }
+    }
+}

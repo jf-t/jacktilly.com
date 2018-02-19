@@ -1,0 +1,52 @@
+.header {
+  height: 800px;
+  box-sizing: border-box;
+  background: url("http://localhost:3001/palm-trees.jpg");
+  padding-top: 200px;
+  background-size: auto 100%;
+  background-position: center center; }
+  .header .header-content {
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0px 2px 25px 1px #fff;
+    user-select: none; }
+    .header .header-content h3, .header .header-content h2, .header .header-content h4 {
+      margin: 0;
+      padding: 6px 0;
+      text-transform: uppercase; }
+    .header .header-content h2 {
+      font-size: 50px;
+      font-weight: 700; }
+    .header .header-content h3 {
+      font-size: 25px;
+      font-weight: 600; }
+    .header .header-content h4 {
+      font-size: 20px;
+      font-weight: 500; }
+    .header .header-content .social-icons {
+      display: flex;
+      margin-top: 20px;
+      justify-content: center; }
+      .header .header-content .social-icons .icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 24px;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background: #fff;
+        cursor: pointer;
+        margin: 0 10px;
+        padding: 5px;
+        box-shadow: 0px 2px 5px #666; }
+        .header .header-content .social-icons .icon:hover {
+          background: #eaeaea;
+          box-shadow: 0px 4px 8px #666; }
+        .header .header-content .social-icons .icon:active {
+          box-shadow: none;
+          background: #cecece; }
