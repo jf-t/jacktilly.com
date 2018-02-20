@@ -1,24 +1,44 @@
 .about {
-  background: #efefef; }
-  .about .about-title h1 {
+  background: #efefef;
+  margin-bottom: 50px;
+  padding: 20px; }
+  .about .about-story .about-title h1 {
     padding: 30px 0 50px;
     font-size: 40px;
     margin: 0 auto; }
-  .about .about-leftside, .about .about-rightside {
+  .about .about-story .about-leftside, .about .about-story .about-rightside {
     width: 50%;
     float: left; }
-  .about .about-leftside .img-cont {
+  .about .about-story .about-leftside .img-cont {
     margin: 0 auto;
     width: 90%;
     height: auto; }
-    .about .about-leftside .img-cont img {
+    .about .about-story .about-leftside .img-cont img {
       width: 100%;
       height: 100%; }
-  .about .about-rightside {
+  .about .about-story .about-rightside {
     text-align: left;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 28px; }
-    .about .about-rightside h3 {
+    .about .about-story .about-rightside h3 {
       margin: 0;
-      padding-top: 20px;
       font-size: 25px; }
+  .about .about-info {
+    margin: 50px; }
+    .about .about-info .my-info, .about .about-info .my-skills {
+      float: left;
+      padding: 0 10px;
+      box-sizing: border-box; }
+    .about .about-info .row {
+      padding: 10px 0;
+      border-bottom: 1px dashed #000; }
+      .about .about-info .row .row-key {
+        float: left; }
+      .about .about-info .row .row-value {
+        float: right; }
+    .about .about-info .my-info {
+      width: 45%; }
+    .about .about-info .my-skills {
+      width: 55%; }
+      .about .about-info .my-skills .row .row-value {
+        float: none; }

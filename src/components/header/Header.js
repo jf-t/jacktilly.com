@@ -10,7 +10,7 @@ class Header extends Component {
                 <div className="header-content">
                     <h3>Hello</h3>
                     <h2>I am Jack Tilly</h2>
-                    <h4>Web Application Developer</h4>
+                    <h4>Web Developer</h4>
                     <div className="social-icons">
                         <div className="icon">
                             <i className="fab fa-twitter"></i>
