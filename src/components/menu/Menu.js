@@ -3,6 +3,17 @@ import './Menu.css';
 
 
 class Menu extends Component {
+    constructor () {
+        super();
+
+        this.linkTo = this.linkTo.bind(this);
+    }
+
+    linkTo (route) {
+        // Need to implement single page site routing
+    }
+
+
     render () {
         return (
             <div className="menu">
