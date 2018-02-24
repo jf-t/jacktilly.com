@@ -8,6 +8,8 @@
         }
 
         .experience-list {
+            padding: 50px 0;
+
             .experience-item {
                 background: #fff;
                 width: 85%;
@@ -15,10 +17,26 @@
 
                 padding: 20px 40px;
 
+                .experience-item-header {
+                    width: 50%;
+                    margin-left: auto;
+                    text-align: left;
+
+                    margin-bottom: 30px;
+
+                    h3 {
+                        font-size: 25px;
+                    }
+                }
+
                 ul {
                     width: 80%;
                     margin: 0 auto;
                     text-align: left;
+
+                    li {
+                        padding: 6px 0;
+                    }
                 }
             }
         }
