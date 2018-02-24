@@ -4,7 +4,8 @@
   background: url("http://localhost:3001/palm-trees.jpg");
   padding-top: 200px;
   background-size: auto 100%;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
   .header .header-content {
     user-select: none; }
     .header .header-content h3, .header .header-content h2, .header .header-content h4 {

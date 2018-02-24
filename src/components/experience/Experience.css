@@ -1,0 +1,13 @@
+.experience {
+  background: #efefef; }
+  .experience .experience-content .experience-header h1 {
+    margin: 0; }
+  .experience .experience-content .experience-list .experience-item {
+    background: #fff;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px 40px; }
+    .experience .experience-content .experience-list .experience-item ul {
+      width: 80%;
+      margin: 0 auto;
+      text-align: left; }

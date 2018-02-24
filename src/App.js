@@ -6,6 +6,9 @@ import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
 import About from './components/about/About';
 
+import Portfolio from './components/portfolio/Portfolio';
+import Experience from './components/experience/Experience';
+
 class App extends Component {
     render() {
         return (
@@ -13,6 +16,8 @@ class App extends Component {
                 <Header />
                 <Menu />
                 <About />
+                <Experience />
+                <Portfolio />
             </div>
         );
     }
