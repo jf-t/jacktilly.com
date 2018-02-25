@@ -1,10 +1,19 @@
+@import '../../App.scss';
+
+
 .experience {
     background: #efefef;
+    padding: 60px 0;
+
 
     .experience-content {
 
         .experience-header h1 {
             margin: 0;
+
+            &:after {
+                @include pill;
+            }
         }
 
         .experience-list {

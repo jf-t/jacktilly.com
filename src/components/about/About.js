@@ -23,6 +23,11 @@ class About extends Component {
                                 <p>When I was cut from the WSU golf team in August 2014, in my first few weeks at college, I turned my attention towards Computer Science. I finished two years of college taking basic Computer Science classes when I made a decision to take a different route. I was referred to <a href="https://www.appacademy.io" target="_blank">App Academy</a> through a family friend, and after some research I decided to leave my degree at WSU for App Academy.</p>
                                 <p>I graduated from App Academy in October 2016 and moved to New York City to pursue my web development career.</p>
                             </div>
+                            <div className="download-links">
+                                <div className="download-button">
+                                    Download CV
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

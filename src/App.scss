@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 
+$accent-color: #4896ab;
+
+
+
+@mixin pill {
+    border: 5px solid $accent-color;
+    border-radius: 10px;
+    content: ' ';
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
 
 .clearfix:after {
   content: "";
