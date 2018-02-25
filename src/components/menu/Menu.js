@@ -23,16 +23,16 @@ class Menu extends Component {
                 <div className="menu-rightside">
                     <div className="menu-nav">
                         <div className="navigation-item">
-                            <a onClick={() => this.linkTo('home')}>home</a>
-                        </div>
-                        <div className="navigation-item">
                             <a onClick={() => this.linkTo('about')}>about me</a>
                         </div>
                         <div className="navigation-item">
                             <a onClick={() => this.linkTo('experience')}>experience</a>
                         </div>
                         <div className="navigation-item">
-                            <a onClick={() => this.linkTo('education')}>education</a>
+                            <a onClick={() => this.linkTo('portfolio')}>portfolio</a>
+                        </div>
+                        <div className="navigation-item">
+                            <a onClick={() => this.linkTo('contact')}>contact</a>
                         </div>
                     </div>
                 </div>
