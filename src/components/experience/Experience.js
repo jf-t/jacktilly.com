@@ -19,14 +19,14 @@ class Experience extends Component {
                                     <h5>Jan 2017 - Present</h5>
                                 </div>
                                 <div className="experience-item-body">
-                                    <h4>Responsibilities include:</h4>
-                                    <ul>
-                                        <li>Develop new features on Angular 4 application</li>
-                                        <li>Maintain legacy CRM with Symfony 4 (php)</li>
-                                        <li>Learned and built out most of an internal iOS application</li>
-                                        <li>Used Quality Assurance techniques using JIRA, BitBucket and Confluence with a designated QA test team.</li>
-                                        <li>Gained promotion after 6 months on the job (August 2017)</li>
-                                    </ul>
+                                    <p>
+                                        Frontend developer for large corporation
+                                        in New York City. Main responsibilities
+                                        include working on new features for
+                                        Angular 4 application, creating varius
+                                        React components, and maintaining a
+                                        legacy CRM application.
+                                    </p>
                                 </div>
 
                             </div>
@@ -40,14 +40,16 @@ class Experience extends Component {
                                     <h5>May 2015 - July 2016</h5>
                                 </div>
                                 <div className="experience-item-body">
-                                    <h4>Responsibilities include:</h4>
-                                    <ul>
-                                        <li>Built professionally designed responsive websites for a growing corporation</li>
-                                        <li>Used modern HTML5/CSS3 practices in a professionally setting in Silicon Valley</li>
-                                        <li>Worked directly with experienced designer in development, testing, and maintenance</li>
-                                    </ul>
+                                    <p>
+                                        Built corporate websites for growing
+                                        company in Silicon Valley, using
+                                        responsive bootstrap grids and
+                                        occasionally using Joomla CMS for
+                                        company blogs. Worked with an
+                                        experienced designer for developing,
+                                        testing and designing the websites.
+                                    </p>
                                 </div>
-
                             </div>
                         </div>
                     </div>

@@ -44,15 +44,15 @@ class About extends Component {
                                 <span className="row-value">London, UK.</span>
                             </div>
                             <div className="row clearfix">
-                                <span className="row-key">Address</span>
+                                <span className="row-key">Address:</span>
                                 <span className="row-value">385 Vernon Ave, Brooklyn, NY, 11206</span>
                             </div>
                             <div className="row clearfix">
-                                <span className="row-key">Email</span>
+                                <span className="row-key">Email:</span>
                                 <span className="row-value">jackftilly@gmail.com</span>
                             </div>
                             <div className="row clearfix">
-                                <span className="row-key">Phone Number</span>
+                                <span className="row-key">Phone Number:</span>
                                 <span className="row-value">650 863 5415</span>
                             </div>
                         </div>

@@ -3,22 +3,19 @@
   .experience .experience-content .experience-header h1 {
     margin: 0; }
   .experience .experience-content .experience-list {
+    text-align: left;
     padding: 50px 0; }
     .experience .experience-content .experience-list .experience-item {
       background: #fff;
-      width: 85%;
-      margin: 20px auto;
-      padding: 20px 40px; }
-      .experience .experience-content .experience-list .experience-item .experience-item-header {
-        width: 50%;
-        margin-left: auto;
-        text-align: left;
-        margin-bottom: 30px; }
-        .experience .experience-content .experience-list .experience-item .experience-item-header h3 {
-          font-size: 25px; }
-      .experience .experience-content .experience-list .experience-item ul {
-        width: 80%;
-        margin: 0 auto;
-        text-align: left; }
-        .experience .experience-content .experience-list .experience-item ul li {
-          padding: 6px 0; }
+      width: 75%;
+      margin: 0 auto;
+      padding: 15px 20px;
+      border: 1px solid #333;
+      box-shadow: 1px 1px 4px 1px #ccc; }
+      .experience .experience-content .experience-list .experience-item:first-child {
+        margin-bottom: 40px; }
+      .experience .experience-content .experience-list .experience-item h3, .experience .experience-content .experience-list .experience-item h4, .experience .experience-content .experience-list .experience-item h5, .experience .experience-content .experience-list .experience-item p {
+        padding: 6px 0;
+        margin: 0; }
+      .experience .experience-content .experience-list .experience-item .experience-item-header h3 {
+        font-size: 25px; }
