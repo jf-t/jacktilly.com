@@ -98,7 +98,8 @@ body {
       box-sizing: border-box;
       display: block; } }
   .about .about-info {
-    padding: 30px; }
+    padding: 30px;
+    margin-top: 30px; }
     .about .about-info .my-info, .about .about-info .my-skills {
       float: left;
       padding: 0 10px;
