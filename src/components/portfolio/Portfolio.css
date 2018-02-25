@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat'; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.portfolio {
+  background: #efefef;
+  padding: 60px 0; }
+  .portfolio .portfolio-content .portfolio-header h1 {
+    margin: 0; }
+    .portfolio .portfolio-content .portfolio-header h1:after {
+      border: 5px solid #4896ab;
+      border-radius: 10px;
+      content: ' ';
+      display: block;
+      width: 60px;
+      margin: 0 auto;
+      margin-top: 10px; }
+  .portfolio .portfolio-content .portfolio-list {
+    text-align: left;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 960px;
+    justify-content: space-between; }
+    .portfolio .portfolio-content .portfolio-list .portfolio-item {
+      background: #fff;
+      width: 45%;
+      box-sizing: border-box;
+      height: 300px;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 20px;
+      border: 1px solid #333;
+      box-shadow: 1px 1px 4px 1px #ccc; }
+      .portfolio .portfolio-content .portfolio-list .portfolio-item:first-child {
+        margin-top: 0px; }
+      .portfolio .portfolio-content .portfolio-list .portfolio-item h3, .portfolio .portfolio-content .portfolio-list .portfolio-item h4, .portfolio .portfolio-content .portfolio-list .portfolio-item h5, .portfolio .portfolio-content .portfolio-list .portfolio-item p {
+        padding: 6px 0;
+        margin: 0; }
+      .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header h3 {
+        font-size: 25px; }
