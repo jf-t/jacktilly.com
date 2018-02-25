@@ -3,6 +3,10 @@
 $accent-color: #4896ab;
 
 
+$screen-md-max: 1199px;
+$screen-sm-max: 991px;
+$screen-xs-max: 767px;
+
 
 @mixin pill {
     border: 5px solid $accent-color;

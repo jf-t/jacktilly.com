@@ -16,6 +16,7 @@
                 &:after {
                     @include pill;
                 }
+
             }
         }
 
@@ -51,6 +52,8 @@
             font-size: 16px;
             line-height: 28px;
 
+            max-width: 700px;
+
             h3 {
                 margin: 0;
                 font-size: 25px;
@@ -63,6 +66,30 @@
                 color: #fff;
                 padding: 8px 12px;
                 border-radius: 25px;
+            }
+        }
+
+
+        @media (max-width: $screen-xs-max) {
+            .about-leftside, .about-rightside {
+                width: 100%;
+                float: none;
+
+                .img-cont {
+                    text-align: center;
+
+                    img {
+                        max-width: 450px;
+                    }
+                }
+            }
+
+            .about-rightside {
+                max-width: 490px;
+                margin: 20px auto;
+                padding: 0 20px;
+                box-sizing: border-box;
+                display: block;
             }
         }
     }
