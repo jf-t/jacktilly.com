@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .menu {
     padding: 0 20px;
     height: 80px;
@@ -7,7 +9,7 @@
         float: left;
     }
 
-    color: #71a1b5;
+    color: $accent-color;
     .menu-leftside {
         width: 40%;
 

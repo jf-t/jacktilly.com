@@ -13,7 +13,7 @@ class About extends Component {
                     <div className="about-content clearfix">
                         <div className="about-leftside">
                             <div className="img-cont">
-                                <img src="http://localhost:3001/cloisters-me.jpg" />
+                                <img src="http://i64.tinypic.com/nl38zr.jpg" />
                             </div>
                         </div>
                         <div className="about-rightside">

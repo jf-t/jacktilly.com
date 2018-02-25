@@ -34,7 +34,8 @@
   background: #efefef;
   padding: 60px 0; }
   .experience .experience-content .experience-header h1 {
-    margin: 0; }
+    margin: 0;
+    font-size: 40px; }
     .experience .experience-content .experience-header h1:after {
       border: 5px solid #4896ab;
       border-radius: 10px;

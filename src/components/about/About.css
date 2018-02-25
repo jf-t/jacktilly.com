@@ -75,20 +75,22 @@
       color: #fff;
       padding: 8px 12px;
       border-radius: 25px; }
-  .about .about-info .my-info, .about .about-info .my-skills {
-    float: left;
-    padding: 0 10px;
-    box-sizing: border-box; }
-  .about .about-info .row {
-    padding: 10px 0;
-    border-bottom: 1px dashed #000; }
-    .about .about-info .row .row-key {
-      float: left; }
-    .about .about-info .row .row-value {
-      float: right; }
-  .about .about-info .my-info {
-    width: 45%; }
-  .about .about-info .my-skills {
-    width: 55%; }
-    .about .about-info .my-skills .row .row-value {
-      float: none; }
+  .about .about-info {
+    padding: 30px; }
+    .about .about-info .my-info, .about .about-info .my-skills {
+      float: left;
+      padding: 0 10px;
+      box-sizing: border-box; }
+    .about .about-info .row {
+      padding: 10px 0;
+      border-bottom: 1px dashed #000; }
+      .about .about-info .row .row-key {
+        float: left; }
+      .about .about-info .row .row-value {
+        float: right; }
+    .about .about-info .my-info {
+      width: 45%; }
+    .about .about-info .my-skills {
+      width: 55%; }
+      .about .about-info .my-skills .row .row-value {
+        float: none; }
