@@ -24,6 +24,13 @@
 .App-intro {
   font-size: large; }
 
+body {
+  background: #efefef; }
+
+.body {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg); }
@@ -53,7 +60,7 @@
     justify-content: space-between; }
     .portfolio .portfolio-content .portfolio-list .portfolio-item {
       background: #fff;
-      width: 45%;
+      width: 46%;
       box-sizing: border-box;
       height: 300px;
       display: block;
@@ -68,3 +75,9 @@
         margin: 0; }
       .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header h3 {
         font-size: 25px; }
+  @media (max-width: 767px) {
+    .portfolio .portfolio-content .portfolio-list {
+      height: auto; }
+      .portfolio .portfolio-content .portfolio-list .portfolio-item {
+        width: 90%;
+        margin-bottom: 20px; } }
