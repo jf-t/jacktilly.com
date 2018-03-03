@@ -42,7 +42,7 @@ body {
   .contact .contact-content .contact-header h1 {
     margin: 0; }
     .contact .contact-content .contact-header h1:after {
-      border: 5px solid #4896ab;
+      border: 5px solid #0f9ab0;
       border-radius: 10px;
       content: ' ';
       display: block;

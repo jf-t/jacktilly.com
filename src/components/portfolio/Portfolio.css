@@ -43,7 +43,7 @@ body {
   .portfolio .portfolio-content .portfolio-header h1 {
     margin: 0; }
     .portfolio .portfolio-content .portfolio-header h1:after {
-      border: 5px solid #4896ab;
+      border: 5px solid #0f9ab0;
       border-radius: 10px;
       content: ' ';
       display: block;
@@ -66,8 +66,8 @@ body {
       box-sizing: border-box;
       height: 300px;
       display: block;
-      margin: 0 1%;
-      padding: 15px 20px;
+      margin: 0 auto;
+      padding: 40px 20px;
       border: 1px solid #333;
       box-shadow: 1px 1px 4px 1px #ccc; }
       .portfolio .portfolio-content .portfolio-list .portfolio-item:first-child {
@@ -81,5 +81,6 @@ body {
     .portfolio .portfolio-content .portfolio-list {
       height: auto; }
       .portfolio .portfolio-content .portfolio-list .portfolio-item {
-        width: 90%;
+        height: auto;
+        width: 100%;
         margin-bottom: 20px; } }
