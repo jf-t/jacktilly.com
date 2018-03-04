@@ -43,10 +43,9 @@ class Experience extends Component {
                                     <p>
                                         Built corporate websites for growing
                                         company in Silicon Valley, using
-                                        responsive bootstrap grids and
-                                        occasionally using Joomla CMS for
-                                        company blogs. Worked with an
-                                        experienced designer for developing,
+                                        responsive bootstrap grids, LESS styling,
+                                        and Joomla CMS constantly. Worked
+                                        with an experienced designer for developing,
                                         testing and designing the websites.
                                     </p>
                                 </div>

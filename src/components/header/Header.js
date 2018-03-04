@@ -3,6 +3,11 @@ import './Header.css';
 
 
 
+// Header component background parallax scroll:
+//  background-position-y = 0 -> -100px from
+//  document scroll top y / 8
+
+
 class Header extends Component {
     render () {
         return (
