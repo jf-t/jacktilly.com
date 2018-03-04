@@ -2,7 +2,7 @@
   height: 800px;
   box-sizing: border-box;
   background: url("http://oi65.tinypic.com/2na72vb.jpg");
-  padding-top: 200px;
+  padding-top: 20vh;
   background-size: cover;
   background-position: 0;
   background-attachment: fixed; }
@@ -42,3 +42,9 @@
         .header .header-content .social-icons .icon:active {
           box-shadow: none;
           background: rgba(255, 255, 255, 0.4); }
+    .header .header-content .scroll-icon {
+      position: absolute;
+      bottom: 10%;
+      width: 100%;
+      color: #efefef;
+      font-size: 55px; }

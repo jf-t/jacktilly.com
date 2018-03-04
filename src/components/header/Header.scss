@@ -5,10 +5,11 @@
     background: url('http://oi65.tinypic.com/2na72vb.jpg');
     // background: url('http://i66.tinypic.com/2d7c2t0.png');
 
-    padding-top: 200px;
+    padding-top: 20vh;
     background-size: cover;
     background-position: 0;
     background-attachment: fixed;
+
 
     .header-content {
         user-select: none;
@@ -70,6 +71,16 @@
                     background: rgba(255, 255, 255, 0.4);
                 }
             }
+        }
+
+        .scroll-icon {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            color: #efefef;
+            font-size: 55px;
+
+            // Add bounce animation to icon to show user to scroll down
         }
     }
 }

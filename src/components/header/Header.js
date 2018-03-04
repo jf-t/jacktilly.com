@@ -33,6 +33,10 @@ class Header extends Component {
                             <i className="far fa-envelope"></i>
                         </div>
                     </div>
+
+                    <div className="scroll-icon">
+                        <i className="far fa-arrow-alt-circle-down"></i>
+                    </div>
                 </div>
             </div>
         );

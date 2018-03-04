@@ -80,7 +80,7 @@ body {
       margin: 0;
       font-size: 25px; }
     .about .about-story .about-rightside button {
-      width: 180px;
+      width: 200px;
       text-align: center;
       background: #0f9ab0;
       color: #fff;
@@ -89,7 +89,9 @@ body {
       display: block;
       font-size: 18px;
       font-family: 'Montserrat';
-      border: none; }
+      border: none;
+      font-weight: bold;
+      letter-spacing: 1.2px; }
   .about .about-info {
     padding: 30px;
     margin-top: 30px; }

@@ -90,7 +90,7 @@ body {
           .contact .contact-content .contact-info .contact-form .contact-cont textarea:focus {
             outline: none; }
       .contact .contact-content .contact-info .contact-form button {
-        width: 180px;
+        width: 200px;
         text-align: center;
         background: #0f9ab0;
         color: #fff;
@@ -100,4 +100,6 @@ body {
         font-size: 18px;
         font-family: 'Montserrat';
         border: none;
+        font-weight: bold;
+        letter-spacing: 1.2px;
         margin: 0 auto; }
