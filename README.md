@@ -1,5 +1,3 @@
-[http://www.jacktilly.com] (This is old site)
-
 # This is the repo of my personal website
 
 I am building this website in React as a learning lesson for myself and to prove ability for others.
