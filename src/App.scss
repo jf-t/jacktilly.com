@@ -69,9 +69,13 @@ body {
     background: #efefef;
 }
 
-.body {
-    max-width: 1200px;
-    margin: 0 auto;
+.section {
+    width: 100%;
+
+    > div {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 @keyframes App-logo-spin {

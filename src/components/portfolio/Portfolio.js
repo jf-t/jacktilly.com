@@ -4,7 +4,7 @@ import './Portfolio.css';
 class Portfolio extends Component {
     render () {
         return (
-            <div className="portfolio">
+            <div className="portfolio section">
                 <div className="portfolio-content">
                     <div className="portfolio-header">
                         <h1>portfolio</h1>
