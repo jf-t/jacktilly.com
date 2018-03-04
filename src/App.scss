@@ -19,6 +19,17 @@ $screen-xs-max: 767px;
 }
 
 
+@mixin button {
+    width: 180px;
+    text-align: center;
+    background: #0f9ab0;
+    color: #fff;
+    padding: 12px 19px;
+    border-radius: 25px;
+    display: block;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
 
 
 .clearfix:after {

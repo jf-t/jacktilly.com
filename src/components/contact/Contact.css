@@ -64,7 +64,7 @@ body {
           box-sizing: border-box;
           line-height: 60px;
           padding: 10px 30px;
-          font-size: 35px;
+          font-size: 25px;
           border: 1px solid #333; }
           .contact .contact-content .contact-info .contact-form .contact-cont input:focus {
             outline: none; }
@@ -73,9 +73,20 @@ body {
           resize: none;
           height: 400px;
           box-sizing: border-box;
-          padding: 30px;
+          padding: 20px 30px;
           line-height: 32px;
-          font-size: 25px;
+          font-size: 20px;
           border: 1px solid #333; }
           .contact .contact-content .contact-info .contact-form .contact-cont textarea:focus {
             outline: none; }
+      .contact .contact-content .contact-info .contact-form button {
+        width: 180px;
+        text-align: center;
+        background: #0f9ab0;
+        color: #fff;
+        padding: 12px 19px;
+        border-radius: 25px;
+        display: block;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        margin: 0 auto; }

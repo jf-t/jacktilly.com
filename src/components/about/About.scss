@@ -59,13 +59,8 @@
                 font-size: 25px;
             }
 
-            .download-links .download-button {
-                width: 140px;
-                text-align: center;
-                background: $accent-color;
-                color: #fff;
-                padding: 8px 12px;
-                border-radius: 25px;
+            button {
+                @include button;
             }
         }
 

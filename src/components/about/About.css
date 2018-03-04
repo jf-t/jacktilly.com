@@ -76,13 +76,16 @@ body {
     .about .about-story .about-rightside h3 {
       margin: 0;
       font-size: 25px; }
-    .about .about-story .about-rightside .download-links .download-button {
-      width: 140px;
+    .about .about-story .about-rightside button {
+      width: 180px;
       text-align: center;
       background: #0f9ab0;
       color: #fff;
-      padding: 8px 12px;
-      border-radius: 25px; }
+      padding: 12px 19px;
+      border-radius: 25px;
+      display: block;
+      font-size: 18px;
+      font-family: 'Montserrat'; }
   .about .about-info {
     padding: 30px;
     margin-top: 30px; }
