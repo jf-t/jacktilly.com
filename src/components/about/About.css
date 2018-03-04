@@ -83,21 +83,6 @@ body {
       color: #fff;
       padding: 8px 12px;
       border-radius: 25px; }
-  @media (max-width: 767px) {
-    .about .about-story .about-leftside, .about .about-story .about-rightside {
-      width: 100%;
-      float: none; }
-      .about .about-story .about-leftside .img-cont, .about .about-story .about-rightside .img-cont {
-        text-align: center; }
-        .about .about-story .about-leftside .img-cont img, .about .about-story .about-rightside .img-cont img {
-          max-width: 450px; }
-    .about .about-story .about-rightside {
-      max-width: 90%;
-      margin: 20px auto;
-      padding: 0 20px;
-      margin-top: 60px;
-      box-sizing: border-box;
-      display: block; } }
   .about .about-info {
     padding: 30px;
     margin-top: 30px; }
@@ -118,3 +103,23 @@ body {
       width: 55%; }
       .about .about-info .my-skills .row .row-value {
         float: none; }
+  @media (max-width: 767px) {
+    .about .about-story .about-leftside, .about .about-story .about-rightside {
+      width: 100%;
+      float: none; }
+      .about .about-story .about-leftside .img-cont, .about .about-story .about-rightside .img-cont {
+        text-align: center; }
+        .about .about-story .about-leftside .img-cont img, .about .about-story .about-rightside .img-cont img {
+          max-width: 450px; }
+    .about .about-story .about-rightside {
+      max-width: 90%;
+      margin: 20px auto;
+      padding: 0 20px;
+      margin-top: 60px;
+      box-sizing: border-box;
+      display: block; }
+    .about .about-info .my-info, .about .about-info .my-skills {
+      width: 100%;
+      float: none;
+      max-width: 480px;
+      margin: 0 auto; } }
