@@ -2,13 +2,13 @@
   height: 800px;
   box-sizing: border-box;
   background: url("http://oi65.tinypic.com/2na72vb.jpg");
-  background: url("http://i66.tinypic.com/2d7c2t0.png");
   padding-top: 200px;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
   .header .header-content {
-    user-select: none; }
+    user-select: none;
+    color: #fff; }
     .header .header-content h3, .header .header-content h2, .header .header-content h4 {
       margin: 0;
       padding: 6px 0;
@@ -32,16 +32,13 @@
         line-height: 35px;
         font-size: 24px;
         text-align: center;
-        border: 1px solid #000;
+        border: 1px solid #fff;
         border-radius: 50%;
-        background: #fff;
         cursor: pointer;
         margin: 0 10px;
-        padding: 5px;
-        box-shadow: 0px 2px 5px #666; }
+        padding: 5px; }
         .header .header-content .social-icons .icon:hover {
-          background: #eaeaea;
-          box-shadow: 0px 4px 8px #666; }
+          background: rgba(255, 255, 255, 0.2); }
         .header .header-content .social-icons .icon:active {
           box-shadow: none;
-          background: #cecece; }
+          background: rgba(255, 255, 255, 0.4); }
