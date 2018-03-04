@@ -75,8 +75,15 @@ body {
       .portfolio .portfolio-content .portfolio-list .portfolio-item h3, .portfolio .portfolio-content .portfolio-list .portfolio-item h4, .portfolio .portfolio-content .portfolio-list .portfolio-item h5, .portfolio .portfolio-content .portfolio-list .portfolio-item p {
         padding: 6px 0;
         margin: 0; }
-      .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header h3 {
-        font-size: 25px; }
+      .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header {
+        margin: 0 0 15px; }
+        .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header h2 {
+          font-size: 25px;
+          margin: 6px 0; }
+        .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header a {
+          color: #0f9ab0; }
+          .portfolio .portfolio-content .portfolio-list .portfolio-item .portfolio-item-header a:hover {
+            color: #444; }
   @media (max-width: 767px) {
     .portfolio .portfolio-content .portfolio-list {
       height: auto; }

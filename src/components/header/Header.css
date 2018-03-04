@@ -4,7 +4,7 @@
   background: url("http://oi65.tinypic.com/2na72vb.jpg");
   padding-top: 200px;
   background-size: cover;
-  background-position: top;
+  background-position: 0;
   background-attachment: fixed; }
   .header .header-content {
     user-select: none;

@@ -55,8 +55,19 @@
                 }
 
                 .portfolio-item-header {
-                    h3 {
+                    margin: 0 0 15px;
+
+                    h2 {
                         font-size: 25px;
+                        margin: 6px 0;
+                    }
+
+                    a {
+                        color: $accent-color;
+
+                        &:hover {
+                            color: #444;
+                        }
                     }
                 }
             }
