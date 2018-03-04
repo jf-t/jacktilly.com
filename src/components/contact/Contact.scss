@@ -12,5 +12,51 @@
                 }
             }
         }
+
+        .contact-info {
+            padding: 30px;
+            box-sizing: border-box;
+
+            .contact-form {
+                width: 60%;
+                max-width: 650px;
+                margin: 0 auto;
+
+                .contact-cont {
+                    padding: 20px 0;
+
+                    input {
+                        width: 100%;
+                        height: 60px;
+                        box-sizing: border-box;
+
+                        line-height: 60px;
+                        padding: 10px 30px;
+
+                        font-size: 35px;
+                        border: 1px solid #333;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    textarea {
+                        width: 100%;
+                        resize: none;
+                        height: 400px;
+                        box-sizing: border-box;
+                        padding: 30px;
+                        line-height: 32px;
+                        font-size: 25px;
+                        border: 1px solid #333;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

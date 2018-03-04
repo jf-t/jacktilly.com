@@ -11,7 +11,19 @@ class Contact extends Component {
                     </div>
 
                     <div className="contact-info">
-                        <p>Will be added later</p>
+                        <div className="contact-form">
+                            <div className="contact-cont contact-name">
+                                <input id="name" type="text" placeholder="what's your name?" />
+                            </div>
+                            <div className="contact-cont contact-email">
+                                <input id="name" type="text" placeholder="what's your email?" />
+                            </div>
+                            <div className="contact-cont contact-body">
+                                <textarea placeholder="what can i do for you?"></textarea>
+                            </div>
+
+                            <button onClick="this.sendEmail">Send Message!</button>
+                        </div>
                     </div>
                 </div>
             </div>

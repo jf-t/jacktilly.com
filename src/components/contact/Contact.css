@@ -49,3 +49,33 @@ body {
       width: 60px;
       margin: 0 auto;
       margin-top: 10px; }
+  .contact .contact-content .contact-info {
+    padding: 30px;
+    box-sizing: border-box; }
+    .contact .contact-content .contact-info .contact-form {
+      width: 60%;
+      max-width: 650px;
+      margin: 0 auto; }
+      .contact .contact-content .contact-info .contact-form .contact-cont {
+        padding: 20px 0; }
+        .contact .contact-content .contact-info .contact-form .contact-cont input {
+          width: 100%;
+          height: 60px;
+          box-sizing: border-box;
+          line-height: 60px;
+          padding: 10px 30px;
+          font-size: 35px;
+          border: 1px solid #333; }
+          .contact .contact-content .contact-info .contact-form .contact-cont input:focus {
+            outline: none; }
+        .contact .contact-content .contact-info .contact-form .contact-cont textarea {
+          width: 100%;
+          resize: none;
+          height: 400px;
+          box-sizing: border-box;
+          padding: 30px;
+          line-height: 32px;
+          font-size: 25px;
+          border: 1px solid #333; }
+          .contact .contact-content .contact-info .contact-form .contact-cont textarea:focus {
+            outline: none; }
