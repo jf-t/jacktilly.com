@@ -28,7 +28,8 @@ body {
   background: #efefef; }
 
 .section {
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box; }
   .section > div {
     max-width: 1200px;
     margin: 0 auto; }
@@ -43,8 +44,9 @@ body {
   background: #efefef;
   padding: 60px 0; }
   .experience .experience-content .experience-header h1 {
-    margin: 0;
-    font-size: 40px; }
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 80px; }
     .experience .experience-content .experience-header h1:after {
       border: 5px solid #0f9ab0;
       border-radius: 10px;

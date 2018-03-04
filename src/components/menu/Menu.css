@@ -28,7 +28,8 @@ body {
   background: #efefef; }
 
 .section {
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box; }
   .section > div {
     max-width: 1200px;
     margin: 0 auto; }
@@ -42,29 +43,29 @@ body {
 .menu {
   padding: 0 20px;
   height: 80px;
-  color: #0f9ab0; }
-  .menu > div {
-    height: 80px;
-    float: left; }
-  .menu .menu-leftside {
-    width: 30%; }
-    .menu .menu-leftside h2 {
-      font-size: 35px;
-      height: 80px;
-      line-height: 80px;
-      margin: 0; }
-  .menu .menu-rightside {
-    width: 70%; }
-    .menu .menu-rightside .menu-nav {
-      display: flex;
-      justify-content: space-around; }
-      .menu .menu-rightside .menu-nav a {
+  background: #333;
+  color: #fff; }
+  .menu .menu-content {
+    display: flex; }
+    .menu .menu-content .menu-leftside {
+      width: 30%; }
+      .menu .menu-content .menu-leftside h2 {
+        font-size: 35px;
         height: 80px;
-        display: block;
         line-height: 80px;
-        font-size: 25px; }
-  @media (max-width: 767px) {
-    .menu .menu-leftside {
-      width: 100%; }
-    .menu .menu-rightside {
-      display: none; } }
+        margin: 0; }
+    .menu .menu-content .menu-rightside {
+      width: 70%; }
+      .menu .menu-content .menu-rightside .menu-nav {
+        display: flex;
+        justify-content: space-around; }
+        .menu .menu-content .menu-rightside .menu-nav a {
+          height: 80px;
+          display: block;
+          line-height: 80px;
+          font-size: 25px; }
+    @media (max-width: 767px) {
+      .menu .menu-content .menu-leftside {
+        width: 100%; }
+      .menu .menu-content .menu-rightside {
+        display: none; } }

@@ -10,10 +10,7 @@
 
         .portfolio-header {
             h1 {
-                margin: 0;
-                &:after {
-                    @include pill;
-                }
+                @include section-header;
             }
         }
 

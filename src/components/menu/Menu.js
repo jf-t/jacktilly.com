@@ -17,22 +17,24 @@ class Menu extends Component {
     render () {
         return (
             <div className="menu section">
-                <div className="menu-leftside">
-                    <h2>JACK TILLY</h2>
-                </div>
-                <div className="menu-rightside">
-                    <div className="menu-nav">
-                        <div className="navigation-item">
-                            <a onClick={() => this.linkTo('about')}>about me</a>
-                        </div>
-                        <div className="navigation-item">
-                            <a onClick={() => this.linkTo('experience')}>experience</a>
-                        </div>
-                        <div className="navigation-item">
-                            <a onClick={() => this.linkTo('portfolio')}>portfolio</a>
-                        </div>
-                        <div className="navigation-item">
-                            <a onClick={() => this.linkTo('contact')}>contact</a>
+                <div className="menu-content">
+                    <div className="menu-leftside">
+                        <h2>JACK TILLY</h2>
+                    </div>
+                    <div className="menu-rightside">
+                        <div className="menu-nav">
+                            <div className="navigation-item">
+                                <a onClick={() => this.linkTo('about')}>about me</a>
+                            </div>
+                            <div className="navigation-item">
+                                <a onClick={() => this.linkTo('experience')}>experience</a>
+                            </div>
+                            <div className="navigation-item">
+                                <a onClick={() => this.linkTo('portfolio')}>portfolio</a>
+                            </div>
+                            <div className="navigation-item">
+                                <a onClick={() => this.linkTo('contact')}>contact</a>
+                            </div>
                         </div>
                     </div>
                 </div>

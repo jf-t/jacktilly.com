@@ -8,15 +8,7 @@
 
         .about-title {
             h1 {
-                font-size: 40px;
-                margin: 0 auto;
-                margin-bottom: 60px;
-
-
-                &:after {
-                    @include pill;
-                }
-
+                @include section-header;
             }
         }
 

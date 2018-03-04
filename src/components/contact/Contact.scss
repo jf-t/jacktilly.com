@@ -2,18 +2,19 @@
 
 .contact {
     padding: 60px 0;
+    background: #333;
+    color: #fff;
+
+
     .contact-content {
         .contact-header {
             h1 {
-                margin: 0;
-
-                &:after {
-                    @include pill;
-                }
+                @include section-header;
             }
         }
 
         .contact-info {
+            color: #000;
             padding: 30px;
             box-sizing: border-box;
 
@@ -34,7 +35,9 @@
                         padding: 10px 30px;
 
                         font-size: 25px;
-                        border: 1px solid #333;
+                        border: 1px solid #fff;
+
+                        background: #efefef;
 
                         &:focus {
                             outline: none;
@@ -49,7 +52,9 @@
                         padding: 20px 30px;
                         line-height: 32px;
                         font-size: 20px;
-                        border: 1px solid #333;
+                        border: 1px solid #fff;
+
+                        background: #efefef;
 
                         &:focus {
                             outline: none;

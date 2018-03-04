@@ -28,7 +28,8 @@ body {
   background: #efefef; }
 
 .section {
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box; }
   .section > div {
     max-width: 1200px;
     margin: 0 auto; }
@@ -40,9 +41,13 @@ body {
     transform: rotate(360deg); } }
 
 .contact {
-  padding: 60px 0; }
+  padding: 60px 0;
+  background: #333;
+  color: #fff; }
   .contact .contact-content .contact-header h1 {
-    margin: 0; }
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 80px; }
     .contact .contact-content .contact-header h1:after {
       border: 5px solid #0f9ab0;
       border-radius: 10px;
@@ -52,6 +57,7 @@ body {
       margin: 0 auto;
       margin-top: 10px; }
   .contact .contact-content .contact-info {
+    color: #000;
     padding: 30px;
     box-sizing: border-box; }
     .contact .contact-content .contact-info .contact-form {
@@ -67,7 +73,8 @@ body {
           line-height: 60px;
           padding: 10px 30px;
           font-size: 25px;
-          border: 1px solid #333; }
+          border: 1px solid #fff;
+          background: #efefef; }
           .contact .contact-content .contact-info .contact-form .contact-cont input:focus {
             outline: none; }
         .contact .contact-content .contact-info .contact-form .contact-cont textarea {
@@ -78,7 +85,8 @@ body {
           padding: 20px 30px;
           line-height: 32px;
           font-size: 20px;
-          border: 1px solid #333; }
+          border: 1px solid #fff;
+          background: #efefef; }
           .contact .contact-content .contact-info .contact-form .contact-cont textarea:focus {
             outline: none; }
       .contact .contact-content .contact-info .contact-form button {
@@ -91,4 +99,5 @@ body {
         display: block;
         font-size: 18px;
         font-family: 'Montserrat';
+        border: 1px solid #333;
         margin: 0 auto; }

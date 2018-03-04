@@ -49,16 +49,16 @@ class About extends Component {
                                 <span className="row-value">London, UK.</span>
                             </div>
                             <div className="row clearfix">
+                                <span className="row-key">Home Town:</span>
+                                <span className="row-value">Belmont, CA.</span>
+                            </div>
+                            <div className="row clearfix">
                                 <span className="row-key">Location:</span>
                                 <span className="row-value">Brooklyn, NY</span>
                             </div>
                             <div className="row clearfix">
                                 <span className="row-key">Email:</span>
                                 <span className="row-value">jackftilly@gmail.com</span>
-                            </div>
-                            <div className="row clearfix">
-                                <span className="row-key">Phone Number:</span>
-                                <span className="row-value">(650) 863 5415</span>
                             </div>
                         </div>
                     </div>
