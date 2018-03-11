@@ -2,12 +2,22 @@ import React, { Component } from 'react';
 import './Contact.css';
 
 class Contact extends Component {
+    constructor () {
+        super();
+
+        this.sendEmail = this.sendEmail.bind(this);
+    }
+
+    sendEmail (event) {
+        event.preventDefault();
+    }
+
     render () {
         return (
             <div className="contact section">
                 <div className="contact-content">
                     <div className="contact-header">
-                        <h1>contact me</h1>
+                        <h1>contact</h1>
                     </div>
 
                     <div className="contact-info">
@@ -22,7 +32,7 @@ class Contact extends Component {
                                 <textarea placeholder="what can i do for you?"></textarea>
                             </div>
 
-                            <button onClick="this.sendEmail">Send Message!</button>
+                            <button onClick={this.sendEmail}>Send Message!</button>
                         </div>
                     </div>
                 </div>

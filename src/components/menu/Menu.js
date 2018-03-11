@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
+
 import './Menu.css';
 
 
 class Menu extends Component {
-    constructor () {
-        super();
+    constructor (props) {
+        super(props);
 
         this.linkTo = this.linkTo.bind(this);
     }
 
     linkTo (route) {
-        // Need to implement single page site routing
+        this.props.linkTo(route);
     }
 
 
     render () {
         return (
-            <div className="menu section">
+            <div className="menu section" id="menu">
                 <div className="menu-content">
                     <div className="menu-leftside">
-                        <h2>JACK TILLY</h2>
+                        <a onClick={() => this.linkTo('header')}>
+                            <h2>JACK TILLY</h2>
+                        </a>
                     </div>
                     <div className="menu-rightside">
                         <div className="menu-nav">

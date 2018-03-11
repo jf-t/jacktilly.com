@@ -42,5 +42,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script type="text/javascript">
+        document.addEventListener('scroll', function (event) {
+            var menuItem = document.querySelector('#menu');
+
+            if (window.scrollY >= 800) {
+                menuItem.style.position = 'fixed';
+            } else {
+                menuItem.style.position = 'initial';
+            }
+        });
+    </script>
+
   </body>
 </html>
