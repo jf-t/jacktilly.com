@@ -29,6 +29,10 @@ class App extends Component {
         if (!fixedMenu) {
             tesNode -= 80;
         }
+
+        if (route === 'about') {
+            tesNode += 79;
+        }
         smoothScroll(tesNode);
     }
 
@@ -36,7 +40,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="header-container">
-                    <Header ref="header" />
+                    <Header linkTo={this.linkTo} ref="header" />
                 </div>
                 <div className="body">
                     <Menu linkTo={this.linkTo} ref="menu" />

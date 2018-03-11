@@ -37,6 +37,8 @@
         cursor: pointer;
         margin: 0 10px;
         padding: 5px; }
+        .header .header-content .social-icons .icon a {
+          color: #fff; }
         .header .header-content .social-icons .icon:hover {
           background: rgba(255, 255, 255, 0.2); }
         .header .header-content .social-icons .icon:active {
