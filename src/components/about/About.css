@@ -57,7 +57,9 @@ body {
       margin-top: 10px; }
   .about .about-story .about-leftside, .about .about-story .about-rightside {
     width: 50%;
-    float: left; }
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box; }
   .about .about-story .about-leftside .img-cont {
     margin: 0 auto;
     width: 90%;

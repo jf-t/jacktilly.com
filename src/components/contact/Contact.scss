@@ -15,7 +15,7 @@
 
         .contact-info {
             color: #000;
-            padding: 30px;
+            padding: 0 30px;
             box-sizing: border-box;
 
             .contact-form {
@@ -36,6 +36,7 @@
 
                         font-size: 25px;
                         border: 1px solid #fff;
+                        border-radius: 2px;
 
                         background: #efefef;
 
@@ -51,8 +52,9 @@
                         box-sizing: border-box;
                         padding: 20px 30px;
                         line-height: 32px;
-                        font-size: 20px;
+                        font-size: 25px;
                         border: 1px solid #fff;
+                        border-radius: 2px;
 
                         background: #efefef;
 
