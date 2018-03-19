@@ -60,6 +60,10 @@ body {
     color: #000;
     padding: 0 30px;
     box-sizing: border-box; }
+    .contact .contact-content .contact-info p {
+      color: #fff;
+      font-size: 25px;
+      margin-bottom: 100px; }
     .contact .contact-content .contact-info .contact-form {
       width: 60%;
       max-width: 650px;
