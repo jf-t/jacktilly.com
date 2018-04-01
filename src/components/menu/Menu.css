@@ -34,6 +34,9 @@ body {
     max-width: 1200px;
     margin: 0 auto; }
 
+.body {
+  position: relative; }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg); }
@@ -43,10 +46,10 @@ body {
 .menu {
   padding: 0 20px;
   height: 80px;
+  position: sticky;
   background: #333;
   color: #fff;
-  top: 0;
-  position: initial; }
+  top: 0; }
   .menu .menu-content {
     display: flex; }
     .menu .menu-content .menu-leftside {

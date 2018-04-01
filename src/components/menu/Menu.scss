@@ -4,11 +4,12 @@
     padding: 0 20px;
     height: 80px;
 
+    position: sticky;
+
     background: #333;
     color: #fff;
 
     top: 0;
-    position: initial;
 
     .menu-content {
         display: flex;
