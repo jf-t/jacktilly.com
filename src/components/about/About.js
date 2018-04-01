@@ -24,7 +24,7 @@ class About extends Component {
                                 <p>One of my family friends mentioned a "coding bootcamp," and after some research, I found <a href="https://www.appacademy.io" target="_blank">App Academy</a>. I graduated from App Academy in October 2016 and moved to New York City to pursue my web development career.</p>
                             </div>
                             <div className="download-links">
-                                <a href="/public/resume2.pdf" download>
+                                <a href="/resume2.pdf" download>
                                     Download CV
                                 </a>
                             </div>
