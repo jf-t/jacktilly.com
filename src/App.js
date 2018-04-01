@@ -22,17 +22,11 @@ class App extends Component {
     }
 
     linkTo (route) {
-        let fixedMenu = ReactDOM.findDOMNode(this.refs.menu).style.position === 'fixed';
         let tesNode = ReactDOM.findDOMNode(this.refs[route]).offsetTop;
+
         tesNode -= 80;
+        tesNode += (Math.max(document.documentElement.clientHeight, window.innerHeight || 0));
 
-        if (!fixedMenu) {
-            tesNode -= 80;
-        }
-
-        if (route === 'about') {
-            tesNode += 79;
-        }
         smoothScroll(tesNode);
     }
 
