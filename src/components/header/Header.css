@@ -50,3 +50,5 @@
       width: 100%;
       color: #efefef;
       font-size: 55px; }
+      .header .header-content .scroll-icon a {
+        cursor: pointer; }

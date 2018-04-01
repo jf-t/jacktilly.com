@@ -84,7 +84,7 @@ body {
     .about .about-story .about-rightside h3 {
       margin: 0;
       font-size: 25px; }
-    .about .about-story .about-rightside button {
+    .about .about-story .about-rightside .download-links a {
       width: 200px;
       text-align: center;
       background: #0f9ab0;

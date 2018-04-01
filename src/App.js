@@ -24,7 +24,7 @@ class App extends Component {
     linkTo (route) {
         let tesNode = ReactDOM.findDOMNode(this.refs[route]).offsetTop;
 
-        tesNode -= 80;
+        tesNode -= 140;
         tesNode += (Math.max(document.documentElement.clientHeight, window.innerHeight || 0));
 
         smoothScroll(tesNode);
