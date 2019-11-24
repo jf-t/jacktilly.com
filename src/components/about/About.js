@@ -13,7 +13,7 @@ class About extends Component {
                     <div className="about-content clearfix">
                         <div className="about-leftside">
                             <div className="img-cont">
-                                <img src="http://i64.tinypic.com/nl38zr.jpg" />
+                                <img src="/images/me.jpg" />
                             </div>
                         </div>
                         <div className="about-rightside">
@@ -66,23 +66,45 @@ class About extends Component {
                         <h3>Development Skills</h3>
 
                         <div className="skills-table">
-                            <div className="row clearfix">
-                                <span className="row-value">JavaScript</span>
+                            <div className="skills-section">
+                              <div className="row clearfix">
+                                  <span className="row-value">JavaScript</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">React</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">ReduxRedux</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">HTML5</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">CSS3/SCSS/LESS</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">Node</span>
+                              </div>
                             </div>
-                            <div className="row clearfix">
-                                <span className="row-value">Angular 2+</span>
-                            </div>
-                            <div className="row clearfix">
-                                <span className="row-value">React/Redux</span>
-                            </div>
-                            <div className="row clearfix">
-                                <span className="row-value">HTML5/CSS3</span>
-                            </div>
-                            <div className="row clearfix">
-                                <span className="row-value">API (Python, Ruby, Node)</span>
-                            </div>
-                            <div className="row clearfix">
-                                <span className="row-value">SQL</span>
+                            <div className="skills-section">
+                              <div className="row clearfix">
+                                  <span className="row-value">ClojureScript</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">Angular 2+</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">Re-frame</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">Ruby</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">Python</span>
+                              </div>
+                              <div className="row clearfix">
+                                  <span className="row-value">SQL</span>
+                              </div>
                             </div>
                         </div>
                     </div>

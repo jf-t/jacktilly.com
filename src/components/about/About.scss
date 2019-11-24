@@ -85,12 +85,23 @@
         }
 
         .my-info {
-            width: 45%;
+            width: 50%;
 
         }
 
         .my-skills {
-            width: 55%;
+            width: 50%;
+
+            .skills-table {
+              display: flex;
+
+              .skills-section {
+                margin: 0 2px;
+                width: 50%;
+              }
+            }
+
+
 
             .row .row-value {
                 float: none;

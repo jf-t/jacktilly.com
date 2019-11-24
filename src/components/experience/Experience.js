@@ -14,9 +14,30 @@ class Experience extends Component {
                         <div className="experience-item">
                             <div className="experience-item-content">
                                 <div className="experience-item-header">
+                                    <h3>Ladders</h3>
+                                    <h4>Software Developer</h4>
+                                    <h5>July 2018 - Present</h5>
+                                </div>
+                                <div className="experience-item-body">
+                                    <p>
+                                        Started as a front-end engineer and transitioned
+                                        into more of a full-stack role. Hired to work
+                                        on a Re-frame application written in ClojureScript,
+                                        but then switched to being a core engineer on
+                                        a port of the entire site, in React/Redux with Next.js
+                                        server-side rendering.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="experience-item">
+                            <div className="experience-item-content">
+                                <div className="experience-item-header">
                                     <h3>Guidepoint</h3>
                                     <h4>Frontend Developer</h4>
-                                    <h5>Jan 2017 - Present</h5>
+                                    <h5>January 2017 - June 2018</h5>
                                 </div>
                                 <div className="experience-item-body">
                                     <p>
@@ -44,7 +65,7 @@ class Experience extends Component {
                                         Built corporate websites for growing
                                         company in Silicon Valley, using
                                         responsive bootstrap grids, LESS styling,
-                                        and Joomla CMS constantly. Worked
+                                        and Joomla CMS. Directly worked
                                         with an experienced designer for developing,
                                         testing and designing the websites.
                                     </p>

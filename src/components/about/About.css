@@ -112,9 +112,14 @@ body {
       .about .about-info .row .row-value {
         float: right; }
     .about .about-info .my-info {
-      width: 45%; }
+      width: 50%; }
     .about .about-info .my-skills {
-      width: 55%; }
+      width: 50%; }
+      .about .about-info .my-skills .skills-table {
+        display: flex; }
+        .about .about-info .my-skills .skills-table .skills-section {
+          margin: 0 2px;
+          width: 50%; }
       .about .about-info .my-skills .row .row-value {
         float: none; }
   @media (max-width: 767px) {

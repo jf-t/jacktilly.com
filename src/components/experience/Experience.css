@@ -68,9 +68,10 @@ body {
       padding: 40px 30px;
       box-sizing: border-box;
       border: 1px solid #333;
-      box-shadow: 1px 1px 4px 1px #ccc; }
-      .experience .experience-content .experience-list .experience-item:first-child {
-        margin-bottom: 40px; }
+      box-shadow: 1px 1px 4px 1px #ccc;
+      margin-bottom: 40px; }
+      .experience .experience-content .experience-list .experience-item:last-child {
+        margin-bottom: 0; }
       .experience .experience-content .experience-list .experience-item h3, .experience .experience-content .experience-list .experience-item h4, .experience .experience-content .experience-list .experience-item h5, .experience .experience-content .experience-list .experience-item p {
         padding: 6px 0;
         margin: 0; }
